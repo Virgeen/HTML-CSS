@@ -1,0 +1,42 @@
+img {
+  float: left;
+  width:60px;
+  height: 80px;
+}
+nav {
+  float: right;
+  color: #F0F8;
+}
+.cool {
+  color: ForestGreen;
+}
+
+
+.Progress-main {
+    background-color: blue;
+    width: 100%;
+  }
+  label, input {
+    display: block;
+}
+
+
+
+}
+#content {
+  display: flex;
+
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch;
+}
+.box-1 {
+  flex-grow: 1;
+  float: right;
+  width: 50%;
+}
+.box-2 {
+  flex-grow: 1px;
+  float: left;
+  width: 50%;
+}
